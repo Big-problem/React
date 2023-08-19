@@ -1,1 +1,5 @@
-ReactDOM.render(<h1>Hello world</h1>, document.querySelector('.root'));
+function MainContent() {
+  return <h>So Cool~~</h>;
+}
+
+ReactDOM.render(<MainContent />, document.querySelector(".root"));
